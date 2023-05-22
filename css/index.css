@@ -61,3 +61,39 @@
 /*#endregion top end */
 
 
+/*region 头部 header start*/
+.header {
+    height: 120px;
+}
+
+.header .logo {
+    width: 190px;
+}
+
+.header .searchbar {
+    margin-top: 42px;
+    font-size : 0;
+}
+
+.header .searchbar input{
+    width: 508px;
+    height: 34px;
+    border: 1px solid #DD302D;
+    
+}
+
+.header .searchbar button {
+    width : 80px;
+    height: 36px;
+    background-color: #DD302D; 
+    /* duiqi */
+    vertical-align: top;
+    background-image: url('../resource/serch_icon.png');
+    background-repeat: no-repeat;
+    background-position: 28px 6px;
+}
+
+
+
+
+/*endregion header end */

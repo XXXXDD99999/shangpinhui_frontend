@@ -61,7 +61,8 @@
 /*#endregion top end */
 
 
-/*region 头部 header start*/
+/*#region 头部 header start*/
+
 .header {
     height: 120px;
 }
@@ -96,4 +97,37 @@
 
 
 
-/*endregion header end */
+/*#endregion header end */
+
+
+
+/* #region 主导航区 main-nav start*/
+.main-nav {
+    height : 48px;
+    line-height: 48px;
+    border-bottom: 1px solid  #DD302D;
+}
+
+.main-nav .all-types {
+    width: 190px;
+    height: 48px;
+    text-align: center;
+    font-size: 23px;
+    color: white;
+    background-color: #DD302D;
+}
+
+
+.main-nav .nav-list li {
+    float: left;
+}
+
+.main-nav .nav-list li a {
+    font-size: 16px;
+    margin: 0 10px;
+}
+
+/* .main-nav .nav-list:first-child a {
+    margin: 0 10px 0 10px;
+} */
+/* #endregion main-nav end*/

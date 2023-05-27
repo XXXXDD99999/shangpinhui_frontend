@@ -292,4 +292,13 @@
 
 /* #endregion end  */
 
+.sec-kill img {
+    margin-top: 10px;
+    float : left;
+    margin-right : 11px;
+    cursor: pointer;
+}
 
+.sec-kill img:last-child {
+    margin-right : 0;
+}

@@ -104,15 +104,15 @@
 /* #region 主导航区 main-nav start*/
 .main-nav {
     height : 48px;
-    line-height: 48px;
     border-bottom: 1px solid  #DD302D;
 }
 
 .main-nav .all-types {
     width: 190px;
     height: 48px;
+    line-height: 48px;
     text-align: center;
-    font-size: 23px;
+    font-size: 16px;
     color: white;
     background-color: #DD302D;
 }
@@ -131,3 +131,165 @@
     margin: 0 10px 0 10px;
 } */
 /* #endregion main-nav end*/
+
+
+/* #region 主要内容区侧边 content-nav start*/
+.main-content {
+    margin-top:10px;
+}
+
+
+.main-content .slide-nav {
+    width: 190px;
+    height: 458px;
+    background-color: #F4F4F4;
+    position: relative;
+}
+
+.main-content .slide-nav li {
+    padding-left: 20px;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    
+}
+.main-content .slide-nav li:hover {
+    background-color: gray;
+}
+.main-content .slide-nav li:hover>a{
+    color: red;
+}
+
+
+.second-menu {
+    width: 680px;
+    height: 458px;
+    background-color: white;
+    position: absolute;
+    left: 190px;
+    top: 0px;
+    padding-left: 20px;
+    display: none;
+}
+
+.main-content .slide-nav li:hover .second-menu {
+    display : block;
+}
+
+.second-menu dl {
+    height: 36px;
+    line-height: 36px;
+}
+
+.second-menu dl:first-child {
+    margin-top: 10px;
+}
+
+.second-menu dt {
+    float : left;
+    width: 70px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.second-menu dd {
+    float : left;
+    /* margin : 0 10px; */
+}
+
+.second-menu dd a {
+    padding: 0 10px;
+    border-left: 1px solid grey;
+}
+
+
+.main-content .banner {
+    width: 690px;
+    height: 458px;
+    margin: 0 10px;
+    background-image: url("../resource/banner主图.png");
+}
+
+
+
+.main-content .slide-others .news{
+    width: 260px;
+    height: 156px;
+    padding: 0 14px;
+    border: 1px solid #D9D9D9;
+}
+
+.main-content .slide-others .news .newstitle{
+    height: 38px;
+    line-height: 38px;
+    font-size: 14px;
+    border-bottom: 1px solid #D9D9D9;
+}
+
+
+.main-content .slide-others .newstitle a{
+    float: right;
+    font-size: 12px;
+}
+
+.main-content .slide-others .news .msg-list{
+    height: 26px;
+    line-height: 26px;
+}
+
+.main-content .slide-others .quicklinks{
+    margin-top: 10px;
+    width: 290px;
+    height: 290px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.main-content .slide-others .quicklinks ul:first-child {
+    margin-top: 16px;
+}
+
+.main-content .slide-others .quicklinks .others-nav-list li{
+    width: 48px;
+    float :left;
+    margin: 0 11px;
+    height: 70px;
+}
+
+.main-content .slide-others .others-nav-list li:first-child {
+    margin-left : 16px;
+}
+
+.main-content .slide-others .quicklinks .picture{
+    width: 48px;
+    height: 48px;
+    background-image: url("../resource/精灵图-侧边功能.png");
+}
+
+.quicklinks .others-nav-list:nth-child(1) li:nth-child(2) .picture{
+    background-position: -48px 0;
+}
+
+.quicklinks .others-nav-list:nth-child(1) li:nth-child(3) .picture{
+    background-position: -96px 0;
+}
+
+.quicklinks .others-nav-list:nth-child(1) li:nth-child(4) .picture{
+    background-position: -144px 0;
+}
+
+.main-content .slide-others .quicklinks li .link-text {
+    font-size: 14px;
+}
+
+.main-content .slide-others .quicklinks ul:nth-child(2) {
+    margin: 17px 0;
+}
+
+.main-content .slide-others .quicklinks ul:last-child {
+    margin-bottom: 30px;
+}
+
+/* #endregion end  */
+
+

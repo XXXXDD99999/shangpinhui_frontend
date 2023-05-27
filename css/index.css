@@ -292,6 +292,7 @@
 
 /* #endregion end  */
 
+/* #region sec-kill */
 .sec-kill img {
     margin-top: 10px;
     float : left;
@@ -302,3 +303,75 @@
 .sec-kill img:last-child {
     margin-right : 0;
 }
+
+/* #endregion */
+
+/* region floor */
+.floor {
+    height: 985px;
+    margin-top: 48px;
+}
+
+.floor .floor-top {
+    height: 28px;
+    line-height: 30px;
+    border-bottom: 2px solid red;
+}
+
+.floor .floor-top span{
+    font-size: 20px;
+}
+
+.floor .floor-top li {
+    float : left;
+    
+}
+
+.floor .floor-top li a{
+    font-size: 16px;
+    padding: 0 10px;
+    border-left: 1px solid #D9D9D9;
+}
+.floor .floor-top li:first-child a{
+    border:0;
+    color : red;
+}
+
+.floor .floor-bot {
+    margin-top : 5px;
+}
+
+
+.floor .floor-bot .info1 {
+    width: 190px;
+    height: 392px;
+    text-align: center;
+    background-color: #F4F4F4 ;
+    padding: 20px;
+}
+
+/* .floor .floor-bot .info1 li{
+    width: 90px;
+    height: 22px;
+} */
+
+
+.floor .floor-bot .info1 li a{
+    width: 90px;
+    height: 22px;
+    font-family: PingFangSC-Medium;
+    font-size: 14px;
+    color: #666666;
+    line-height: 22px;
+    padding-bottom : 3.5px;
+    border-bottom: 1px solid rgba(217,217,217,1);
+}
+.floor-bot .info1-link li:nth-child(3) a,.floor-bot .info1-link li:nth-child(4) a {
+    margin: 100px 0;
+}
+/* 
+.info1 img {
+    margin-top: 30px;
+   
+} */
+/* endregion */

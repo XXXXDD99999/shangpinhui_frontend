@@ -165,7 +165,6 @@
 
     //click right button
     bnRight.addEventListener('click', function(){
-      clearInterval(timeId)
 
       if(i < sliderData.length - 1){
         i++
@@ -178,7 +177,6 @@
 
     //click left button
     bnLeft.addEventListener('click', function(){
-      clearInterval(timeId)
 
       if(i >= 1){
         i--
@@ -190,10 +188,23 @@
     })
 
 
-    //mouse leave, rotograph start to work again
+    //mouse enter, close interval
     const slider = document.querySelector('.slider')
+    slider.addEventListener('mouseenter', function(){
+        //close interval
+        clearInterval(timeId)
+    })
+
+
+
+
+    //mouse leave, rotograph start to work again
     slider.addEventListener('mouseleave', function(){
 
+      //close interval
+      clearInterval(timeId)
+
+      //restart interval
       timeId = setInterval(function(){
         i++
 
